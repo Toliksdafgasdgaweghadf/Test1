@@ -19,7 +19,7 @@ console.log(newArray[0][0]);
 
 newArray.push(["hippi","jam"]);
 
-console.log(newArray[2][0]);
+console.log(newArray[2][0]);// Тестовый комментарий
 
 var new2Array = newArray.pop(); //Удаляет последний элемент массива или переносит его в другой массив
 console.log(newArray.length);
