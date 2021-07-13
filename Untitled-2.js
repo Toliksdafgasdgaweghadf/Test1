@@ -54,3 +54,82 @@ function FunctionWithArgs2(a,b) {
 };
 
 FunctionWithArgs(2,4);
+
+var sum =0;
+
+function addTree(){
+
+    sum+=3;
+
+};
+
+function addFive(){
+
+    sum+=5;
+
+};
+
+function nextInLine (arr, item) {
+
+    arr.push(item);
+
+    item = arr.shift();
+
+    return item;
+
+};
+
+var testArr =[1,2,3,4,5];
+
+console.log("Before "+JSON.stringify(testArr));
+console.log(nextInLine(testArr,6));
+console.log("After "+JSON.stringify(testArr));
+
+function ourTrueOrFalse(isItTrue) {
+
+    if (isItTrue) {
+
+        return "It is true";
+
+    }
+
+    return "It is false";
+
+};
+
+//Оператор сравнения через boolean
+function testEqual(val) {
+
+    if (val == 12) {
+
+        return "Equal";
+
+    }
+
+    return "Not equal";
+
+};
+
+function testEqual(val) {
+
+    if (val == 12) {
+
+        return "Equal";
+
+    } else return "Not equal";
+
+};
+
+//Строгое равно
+// 3 == "3"   -правда 
+// 3 != "3"   -ложь
+
+// 3 === 3    -правда
+// 3 ==='3'   -ложь
+// 3 !== "3"  -правда
+
+
+
+
+
+
