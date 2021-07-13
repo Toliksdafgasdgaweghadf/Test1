@@ -128,8 +128,67 @@ function testEqual(val) {
 // 3 ==='3'   -ложь
 // 3 !== "3"  -правда
 
+//Оператор case
+function swatchStatement(val){
 
+    switch(val){
 
+     case 1:       //Используется строгое равно
+            answer = "alpha";
+     break;
 
+        case 2:
+          answer = "beta";
+     brake;    
+
+        case 3:
+            answer = "gamma";
+     brake; 
+
+        case 4:
+            answer = "delta";
+        brake; 
+
+        case 5:
+        case 6:
+        case 7:
+            answer = "air";
+        break;        
+
+        case "bob":
+            answer = "Marley";
+        break;
+
+        case 42:
+            answer = "The Answer";
+        break;
+
+        
+        default: answer = "stuff";
+        break;
+    return answer;
+    };
+
+};
+
+ //Возврат boolean
+
+ function isLess(a,b){
+
+    return a<b; //Вернёт true или false
+
+}
+
+function abTest(a,b) {
+
+    if(a<0 || b <0) {
+
+        return undefined;
+
+    }
+
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b),2));
+
+}
 
 
